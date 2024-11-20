@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="../static/css/userhome.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <li class="dropdown">
+                    <button class="dropdown-btn">&#9776;</button>
+                    <div class="dropdown-content">
+                        <a href="#profile">Profile</a>
+                        <a href="#settings">Settings</a>
+                        <a href="#logout">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search-section">
+            <h1>Search Service Stations</h1>
+            <input type="text" id="search-input" placeholder="Enter station name...">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 User Dashboard</p>
+    </footer>
+
+    <script src="../static/js/userhome.js"></script>
+</body>
+</html>

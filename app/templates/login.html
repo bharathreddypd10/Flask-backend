@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../static/css/styles1.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group password-container">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="eye-icon" id="togglePassword">
+                    👁️ <!-- You can use a Font Awesome icon or an SVG here -->
+                </span>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p class="signup-link">
+            Don't have an account? <a href="signup.html">Sign Up</a>
+        </p>
+        <p id="errorMessage" class="error-message"></p>
+    </div>
+
+    <script src="../static/js/login.js"></script>
+</body>
+</html>
